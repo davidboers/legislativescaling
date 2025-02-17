@@ -1,0 +1,7 @@
+library(devtools)
+load_all("../R")
+token <- get_token()
+lst <- get_vote_list(id_2023_spc, "2", token)
+data <- make_full_table(lst, token)
+save(data, file = "../data/2023_spc_senate.rda")
+ncol(data)

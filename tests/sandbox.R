@@ -1,0 +1,5 @@
+library(cluster)
+data(iris)
+print(iris)
+mds_iris <- cmdscale(dist(iris[, 1:4]))
+print(mds_iris)

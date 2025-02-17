@@ -1,0 +1,10 @@
+Package: legislativescaling
+Title: Creates visualizations for legislative roll-call votes.
+Version: 0.0.0.9000
+Authors@R: 
+    person("David", "Boers", , "kwmmineccraft@gmail.com")
+Description: Allows for creating visualizations of legislative roll-call votes, particularly by using multidimensional scaling (MDS) to create a 2-D plot of legislators according to their voting patterns.
+License: use_gpl3_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
