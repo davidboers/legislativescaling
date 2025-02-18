@@ -48,7 +48,9 @@ make_full_table <- function(vote_list, token) {
     }
     vote_data <- data.frame(Reduce(rbind, votes))
     if (nrow(data) == 0) {
-      data <- data.frame(row.names = vote_data$member)
+      members <- data.frame(Reduce(rbind, vote_data$member))
+      data <- data.frame(row.names = members$id)
+      #data$name <- members$name
     }
     data[paste(vote_id)] <- vote_data$memberVoted
   }
