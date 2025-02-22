@@ -50,7 +50,7 @@ make_full_table <- function(vote_list, token) {
     if (nrow(data) == 0) {
       members <- data.frame(Reduce(rbind, vote_data$member))
       data <- data.frame(row.names = members$id)
-      #data$name <- members$name
+      data$name <- members$name
     }
     data[paste(vote_id)] <- vote_data$memberVoted
   }
