@@ -21,12 +21,11 @@ for (file in db_files) {
   file <- paste("../data", file, sep = "/")
   data <- readRDS(file)
   scaled <- makeplot(data, distance_func_ga)
-  members <- rownames(scaled)
   profiles <- data.frame(
-    name = members["name"],
     x = scaled[, 1],
     y = scaled[, 2]
   )
+  profiles <- cbind(profiles, members[rownames(scaled), ])
   csv_file <- gsub(".rds", ".csv", file)
   write.csv(profiles, csv_file)
 }
