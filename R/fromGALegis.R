@@ -56,3 +56,30 @@ make_full_table <- function(vote_list, token) {
   }
   return(data)
 }
+
+distance_func_ga <- function(r1, r2) {
+  r <- t(rbind(r1, r2))
+  delta <- sum(r[, 1] != r[, 2])
+  if (delta == 0) {
+    return(1)
+  } else {
+    return(delta)
+  }
+}
+
+make_profiles_ga <- function(file, members) {
+  data <- readRDS(file)
+  scaled <- makeplot(data, distance_func_ga)
+  profiles <- data.frame(
+    x = scaled[, 1],
+    y = scaled[, 2]
+  )
+  return(cbind(profiles, members[rownames(scaled), ]))
+}
+
+write_profiles_ga <- function(file, members) {
+  profiles <- make_profiles_ga(file, members)
+  csv_file <- gsub(".rds", ".csv", file)
+  write.csv(profiles, csv_file)
+  return(profiles)
+}
