@@ -1,0 +1,1202 @@
+[
+    {
+        "id": 754,
+        "name": "ALBERS, 56TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4980,
+        "name": "ANAVITARTE, 31ST",
+        "party": "GOP"
+    },
+    {
+        "id": 723,
+        "name": "ANDERSON, 24TH",
+        "party": "GOP"
+    },
+    {
+        "id": 807,
+        "name": "ANDERSON, 43RD",
+        "party": "Dem"
+    },
+    {
+        "id": 840,
+        "name": "BEACH, 21ST",
+        "party": "GOP"
+    },
+    {
+        "id": 62,
+        "name": "BEARDEN, 30TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4907,
+        "name": "BRASS, 28TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4979,
+        "name": "BURNS, 23RD",
+        "party": "GOP"
+    },
+    {
+        "id": 5,
+        "name": "BUTLER, 55TH",
+        "party": "Dem"
+    },
+    {
+        "id": 9,
+        "name": "COWSERT, 46TH",
+        "party": "GOP"
+    },
+    {
+        "id": 10,
+        "name": "DAVENPORT, 44TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4982,
+        "name": "DIXON, 45TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4925,
+        "name": "DOLEZAL, 27TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5017,
+        "name": "ECHOLS, 49TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5014,
+        "name": "ESTEVES, 6TH",
+        "party": "Dem"
+    },
+    {
+        "id": 751,
+        "name": "GINN, 47TH",
+        "party": "GOP"
+    },
+    {
+        "id": 752,
+        "name": "GOOCH, 51ST",
+        "party": "GOP"
+    },
+    {
+        "id": 4977,
+        "name": "GOODMAN, 8TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4985,
+        "name": "HALPERN, 39TH",
+        "party": "Dem"
+    },
+    {
+        "id": 850,
+        "name": "HARBIN, 16TH",
+        "party": "GOP"
+    },
+    {
+        "id": 17,
+        "name": "HARBISON, 15TH",
+        "party": "Dem"
+    },
+    {
+        "id": 311,
+        "name": "HARRELL, 40TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4984,
+        "name": "HATCHETT, 50TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4972,
+        "name": "HICKMAN, 4TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5013,
+        "name": "HODGES, 3RD",
+        "party": "GOP"
+    },
+    {
+        "id": 838,
+        "name": "HUFSTETLER, 52ND",
+        "party": "GOP"
+    },
+    {
+        "id": 5015,
+        "name": "ISLAM PARKES, 7TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4981,
+        "name": "JACKSON, 41ST",
+        "party": "Dem"
+    },
+    {
+        "id": 372,
+        "name": "JAMES, 35TH",
+        "party": "Dem"
+    },
+    {
+        "id": 28,
+        "name": "JONES, 10TH",
+        "party": "Dem"
+    },
+    {
+        "id": 851,
+        "name": "JONES II, 22ND",
+        "party": "Dem"
+    },
+    {
+        "id": 852,
+        "name": "KENNEDY, 18TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4910,
+        "name": "KIRKPATRICK, 32ND",
+        "party": "GOP"
+    },
+    {
+        "id": 157,
+        "name": "LUCAS, 26TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5007,
+        "name": "MALLOW, 2ND",
+        "party": "Dem"
+    },
+    {
+        "id": 4942,
+        "name": "MCLAURIN, 14TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4978,
+        "name": "MERRITT, 9TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4933,
+        "name": "MOORE, 53RD",
+        "party": "GOP"
+    },
+    {
+        "id": 33,
+        "name": "ORROCK, 36TH",
+        "party": "Dem"
+    },
+    {
+        "id": 768,
+        "name": "PARENT, 42ND",
+        "party": "Dem"
+    },
+    {
+        "id": 4909,
+        "name": "PAYNE, 54TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4924,
+        "name": "RAHMAN, 5TH",
+        "party": "Dem"
+    },
+    {
+        "id": 855,
+        "name": "RHETT, 33RD",
+        "party": "Dem"
+    },
+    {
+        "id": 4926,
+        "name": "ROBERTSON, 29TH",
+        "party": "GOP"
+    },
+    {
+        "id": 41,
+        "name": "SEAY, 34TH",
+        "party": "Dem"
+    },
+    {
+        "id": 203,
+        "name": "SETZLER, 37TH",
+        "party": "GOP"
+    },
+    {
+        "id": 209,
+        "name": "SIMS, 12TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5016,
+        "name": "STILL, 48TH",
+        "party": "GOP"
+    },
+    {
+        "id": 835,
+        "name": "STRICKLAND, 17TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4971,
+        "name": "SUMMERS, 13TH",
+        "party": "GOP"
+    },
+    {
+        "id": 47,
+        "name": "TATE, 38TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4908,
+        "name": "TILLERY, 19TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4878,
+        "name": "WALKER, III, 20TH",
+        "party": "GOP"
+    },
+    {
+        "id": 784,
+        "name": "WATSON, 1ST",
+        "party": "GOP"
+    },
+    {
+        "id": 837,
+        "name": "WATSON, 11TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4905,
+        "name": "WILLIAMS, 25TH",
+        "party": "GOP"
+    },
+    {
+        "id": 839,
+        "name": "DUGAN, 30TH",
+        "party": "Vacant"
+    },
+    {
+        "id": 5025,
+        "name": "ADESANYA, 43RD",
+        "party": "Dem"
+    },
+    {
+        "id": 5044,
+        "name": "ADEYINA, 110TH",
+        "party": "Dem"
+    },
+    {
+        "id": 806,
+        "name": "ALEXANDER, 66TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4989,
+        "name": "ANDERSON, 10TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4915,
+        "name": "ANULEWICZ, 42ND",
+        "party": "Dem"
+    },
+    {
+        "id": 4983,
+        "name": "AU, 50TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5051,
+        "name": "BALLARD, 147TH",
+        "party": "GOP"
+    },
+    {
+        "id": 808,
+        "name": "BALLINGER, 23RD",
+        "party": "GOP"
+    },
+    {
+        "id": 5037,
+        "name": "BARNES, 86TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5020,
+        "name": "BARRETT, 24TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4966,
+        "name": "BARTON, 5TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4890,
+        "name": "BAZEMORE, 69TH",
+        "party": "DEM"
+    },
+    {
+        "id": 810,
+        "name": "BENNETT, 94TH",
+        "party": "DEM"
+    },
+    {
+        "id": 793,
+        "name": "BEVERLY, 143RD",
+        "party": "Dem"
+    },
+    {
+        "id": 1878,
+        "name": "BLACKMON, 146TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4893,
+        "name": "BONNER, 73RD",
+        "party": "GOP"
+    },
+    {
+        "id": 69,
+        "name": "BRUCE, 61ST",
+        "party": "DEM"
+    },
+    {
+        "id": 71,
+        "name": "BUCKNER, 137TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4967,
+        "name": "BURCHETT, 176TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4895,
+        "name": "BURNOUGH, 77TH",
+        "party": "Dem"
+    },
+    {
+        "id": 73,
+        "name": "BURNS, 159TH",
+        "party": "GOP"
+    },
+    {
+        "id": 75,
+        "name": "BYRD, 20TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4986,
+        "name": "CAMERON, 1ST",
+        "party": "GOP"
+    },
+    {
+        "id": 5004,
+        "name": "CAMP, 135TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5023,
+        "name": "CAMPBELL, 35TH",
+        "party": "DEM"
+    },
+    {
+        "id": 4970,
+        "name": "CAMPBELL, 171ST",
+        "party": "GOP"
+    },
+    {
+        "id": 4880,
+        "name": "CANNON, 58TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4911,
+        "name": "CARPENTER, 4TH",
+        "party": "GOP"
+    },
+    {
+        "id": 795,
+        "name": "CARSON, 46TH",
+        "party": "GOP"
+    },
+    {
+        "id": 3877,
+        "name": "CARTER, 93RD",
+        "party": "Dem"
+    },
+    {
+        "id": 81,
+        "name": "CHEOKAS, 151ST",
+        "party": "GOP"
+    },
+    {
+        "id": 867,
+        "name": "CLARK, 100TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4953,
+        "name": "CLARK, 108TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4892,
+        "name": "COLLINS, 71ST",
+        "party": "GOP"
+    },
+    {
+        "id": 86,
+        "name": "COOPER, 45TH",
+        "party": "GOP"
+    },
+    {
+        "id": 859,
+        "name": "CORBETT, 174TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5021,
+        "name": "COX, 28TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5036,
+        "name": "CRAWFORD, 84TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5002,
+        "name": "CROWE, 118TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5024,
+        "name": "CUMMINGS, 39TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5047,
+        "name": "DANIEL, 117TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4947,
+        "name": "DAVIS, 87TH",
+        "party": "Dem"
+    },
+    {
+        "id": 303,
+        "name": "DELOACH, 167TH",
+        "party": "GOP"
+    },
+    {
+        "id": 92,
+        "name": "DEMPSEY, 13TH",
+        "party": "GOP"
+    },
+    {
+        "id": 791,
+        "name": "DICKEY, 145TH",
+        "party": "GOP"
+    },
+    {
+        "id": 817,
+        "name": "DOUGLAS, 78TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5038,
+        "name": "DRAPER, 90TH",
+        "party": "Dem"
+    },
+    {
+        "id": 95,
+        "name": "DRENNER, 85TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4886,
+        "name": "DUBNIK, 29TH",
+        "party": "GOP"
+    },
+    {
+        "id": 797,
+        "name": "DUNAHOO, 31ST",
+        "party": "GOP"
+    },
+    {
+        "id": 846,
+        "name": "EFSTRATION, 104TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4937,
+        "name": "EHRHART, 36TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4965,
+        "name": "ERWIN, 32ND",
+        "party": "GOP"
+    },
+    {
+        "id": 762,
+        "name": "EVANS, 57TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4946,
+        "name": "EVANS, 89TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5046,
+        "name": "FLEMING, 114TH",
+        "party": "GOP"
+    },
+    {
+        "id": 101,
+        "name": "FLEMING, 125TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5053,
+        "name": "FRANKLIN, 160TH",
+        "party": "GOP"
+    },
+    {
+        "id": 107,
+        "name": "FRAZIER, 126TH",
+        "party": "Dem"
+    },
+    {
+        "id": 819,
+        "name": "FRYE, 122ND",
+        "party": "Dem"
+    },
+    {
+        "id": 4955,
+        "name": "GAINES, 120TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4934,
+        "name": "GAMBILL, 15TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4881,
+        "name": "GILLIARD, 162ND",
+        "party": "Dem"
+    },
+    {
+        "id": 5048,
+        "name": "GLADNEY, 130TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5031,
+        "name": "GLAIZE, 67TH",
+        "party": "Dem"
+    },
+    {
+        "id": 115,
+        "name": "GREENE, 154TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4936,
+        "name": "GULLETT, 19TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4987,
+        "name": "GUNTER, 8TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5010,
+        "name": "HAGAN, 156TH",
+        "party": "GOP"
+    },
+    {
+        "id": 781,
+        "name": "HATCHETT, 155TH",
+        "party": "GOP"
+    },
+    {
+        "id": 19,
+        "name": "HAWKINS, 27TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5003,
+        "name": "HENDERSON, 113TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4899,
+        "name": "HILTON, 48TH",
+        "party": "GOP"
+    },
+    {
+        "id": 823,
+        "name": "HITCHENS, 161ST",
+        "party": "GOP"
+    },
+    {
+        "id": 769,
+        "name": "HOLCOMB, 81ST",
+        "party": "Dem"
+    },
+    {
+        "id": 4943,
+        "name": "HOLLAND, 54TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4954,
+        "name": "HOLLY, 116TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5042,
+        "name": "HONG, 103RD",
+        "party": "GOP"
+    },
+    {
+        "id": 5018,
+        "name": "HORNER, 3RD",
+        "party": "GOP"
+    },
+    {
+        "id": 130,
+        "name": "HOUSTON, 170TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5056,
+        "name": "HOWARD, 129TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5033,
+        "name": "HUDDLESTON, 72ND",
+        "party": "GOP"
+    },
+    {
+        "id": 133,
+        "name": "HUGLEY, 141ST",
+        "party": "Dem"
+    },
+    {
+        "id": 4952,
+        "name": "HUTCHINSON, 106TH",
+        "party": "Dem"
+    },
+    {
+        "id": 738,
+        "name": "JACKSON, 128TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5011,
+        "name": "JACKSON, 165TH",
+        "party": "Dem"
+    },
+    {
+        "id": 755,
+        "name": "JASPERSE, 11TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5005,
+        "name": "JENKINS, 136TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4885,
+        "name": "JONES, 25TH",
+        "party": "GOP"
+    },
+    {
+        "id": 142,
+        "name": "JONES, 47TH",
+        "party": "GOP"
+    },
+    {
+        "id": 143,
+        "name": "JONES, 60TH",
+        "party": "Dem"
+    },
+    {
+        "id": 825,
+        "name": "KELLEY, 16TH",
+        "party": "GOP"
+    },
+    {
+        "id": 770,
+        "name": "KENDRICK, 95TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4950,
+        "name": "KENNARD, 101ST",
+        "party": "Dem"
+    },
+    {
+        "id": 148,
+        "name": "KNIGHT, 134TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4923,
+        "name": "LAHOOD, 175TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4993,
+        "name": "LEVERETT, 123RD",
+        "party": "GOP"
+    },
+    {
+        "id": 5001,
+        "name": "LEWIS-WARD, 115TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4999,
+        "name": "LIM, 98TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4879,
+        "name": "LOTT, 131ST",
+        "party": "GOP"
+    },
+    {
+        "id": 826,
+        "name": "LUMSDEN, 12TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5035,
+        "name": "LUPTON, 83RD",
+        "party": "Dem"
+    },
+    {
+        "id": 4995,
+        "name": "MAINOR, 56TH",
+        "party": "GOP"
+    },
+    {
+        "id": 163,
+        "name": "MARIN, 96TH",
+        "party": "Dem"
+    },
+    {
+        "id": 164,
+        "name": "MARTIN, 49TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5045,
+        "name": "MARTINEZ, 111TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4894,
+        "name": "MATHIAK, 74TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4959,
+        "name": "MATHIS, 149TH",
+        "party": "GOP"
+    },
+    {
+        "id": 845,
+        "name": "MCCLAIN, 109TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5022,
+        "name": "MCCOLLUM, 30TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4992,
+        "name": "MCDONALD, 26TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4961,
+        "name": "MEEKS, 178TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5029,
+        "name": "MILLER, 62ND",
+        "party": "Dem"
+    },
+    {
+        "id": 172,
+        "name": "MITCHELL, 88TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4935,
+        "name": "MOMTAHAN, 17TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5008,
+        "name": "MOORE, 91ST",
+        "party": "Dem"
+    },
+    {
+        "id": 5043,
+        "name": "MUGHAL, 105TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5032,
+        "name": "NAGHISE, 68TH",
+        "party": "Dem"
+    },
+    {
+        "id": 765,
+        "name": "NEAL, 79TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5030,
+        "name": "NEW, 64TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4902,
+        "name": "NEWTON, 127TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5041,
+        "name": "OKOYE, 102ND",
+        "party": "Dem"
+    },
+    {
+        "id": 5028,
+        "name": "OLALEYE, 59TH",
+        "party": "Dem"
+    },
+    {
+        "id": 181,
+        "name": "OLIVER, 82ND",
+        "party": "Dem"
+    },
+    {
+        "id": 5026,
+        "name": "PANITCH, 51ST",
+        "party": "Dem"
+    },
+    {
+        "id": 794,
+        "name": "PARIS, 142ND",
+        "party": "Dem"
+    },
+    {
+        "id": 4901,
+        "name": "PARK, 107TH",
+        "party": "Dem"
+    },
+    {
+        "id": 183,
+        "name": "PARRISH, 158TH",
+        "party": "GOP"
+    },
+    {
+        "id": 184,
+        "name": "PARSONS, 44TH",
+        "party": "GOP"
+    },
+    {
+        "id": 862,
+        "name": "PETREA, 166TH",
+        "party": "GOP"
+    },
+    {
+        "id": 1877,
+        "name": "PIRKLE, 169TH",
+        "party": "GOP"
+    },
+    {
+        "id": 187,
+        "name": "POWELL, 33RD",
+        "party": "GOP"
+    },
+    {
+        "id": 847,
+        "name": "PRINCE, 132ND",
+        "party": "Dem"
+    },
+    {
+        "id": 5050,
+        "name": "REESE, 140TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5040,
+        "name": "REEVES, 99TH",
+        "party": "GOP"
+    },
+    {
+        "id": 876,
+        "name": "RHODES, 124TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4883,
+        "name": "RIDLEY, 6TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5019,
+        "name": "RIDLEY, 22ND",
+        "party": "GOP"
+    },
+    {
+        "id": 4994,
+        "name": "ROBERTS, 52ND",
+        "party": "Dem"
+    },
+    {
+        "id": 5039,
+        "name": "ROMMAN, 97TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4962,
+        "name": "SAINZ, 180TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5052,
+        "name": "SAMPSON, 153RD",
+        "party": "Dem"
+    },
+    {
+        "id": 4916,
+        "name": "SCHOFIELD, 63RD",
+        "party": "Dem"
+    },
+    {
+        "id": 4964,
+        "name": "SCOGGINS, 14TH",
+        "party": "GOP"
+    },
+    {
+        "id": 766,
+        "name": "SCOTT, 76TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5009,
+        "name": "SEABAUGH, 34TH",
+        "party": "GOP"
+    },
+    {
+        "id": 831,
+        "name": "SHARPER, 177TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4887,
+        "name": "SILCOX, 53RD",
+        "party": "GOP"
+    },
+    {
+        "id": 4990,
+        "name": "SMITH, 18TH",
+        "party": "GOP"
+    },
+    {
+        "id": 832,
+        "name": "SMITH, 41ST",
+        "party": "Dem"
+    },
+    {
+        "id": 212,
+        "name": "SMITH, 70TH",
+        "party": "GOP"
+    },
+    {
+        "id": 215,
+        "name": "SMITH, 138TH",
+        "party": "GOP"
+    },
+    {
+        "id": 213,
+        "name": "SMITH, 139TH",
+        "party": "GOP"
+    },
+    {
+        "id": 219,
+        "name": "STEPHENS, 164TH",
+        "party": "GOP"
+    },
+    {
+        "id": 811,
+        "name": "STINSON, 150TH",
+        "party": "Dem"
+    },
+    {
+        "id": 45,
+        "name": "STONER, 40TH",
+        "party": "Dem"
+    },
+    {
+        "id": 849,
+        "name": "TARVIN, 2ND",
+        "party": "GOP"
+    },
+    {
+        "id": 4998,
+        "name": "TAYLOR, 92ND",
+        "party": "Dem"
+    },
+    {
+        "id": 786,
+        "name": "TAYLOR, 173RD",
+        "party": "GOP"
+    },
+    {
+        "id": 4991,
+        "name": "THOMAS, 21ST",
+        "party": "GOP"
+    },
+    {
+        "id": 4996,
+        "name": "THOMAS, 65TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5055,
+        "name": "TOWNSEND, 179TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5034,
+        "name": "TRAN, 80TH",
+        "party": "Dem"
+    },
+    {
+        "id": 111,
+        "name": "VACANT, 75TH",
+        "party": "Vacant"
+    },
+    {
+        "id": 5049,
+        "name": "VANCE, 133RD",
+        "party": "GOP"
+    },
+    {
+        "id": 4988,
+        "name": "WADE, 9TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4958,
+        "name": "WASHBURN, 144TH",
+        "party": "GOP"
+    },
+    {
+        "id": 863,
+        "name": "WERKHEISER, 157TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5054,
+        "name": "WESTBROOK, 163RD",
+        "party": "Dem"
+    },
+    {
+        "id": 4956,
+        "name": "WIEDOWER, 121ST",
+        "party": "GOP"
+    },
+    {
+        "id": 760,
+        "name": "WILKERSON, 38TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4938,
+        "name": "WILLIAMS, 37TH",
+        "party": "Dem"
+    },
+    {
+        "id": 230,
+        "name": "WILLIAMS, 168TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4960,
+        "name": "WILLIAMS, JR., 148TH",
+        "party": "GOP"
+    },
+    {
+        "id": 778,
+        "name": "WILLIAMSON, 112TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5027,
+        "name": "WILLIS, 55TH",
+        "party": "Dem"
+    },
+    {
+        "id": 4969,
+        "name": "YEARTA, 152ND",
+        "party": "GOP"
+    },
+    {
+        "id": 5061,
+        "name": "BELL, 75TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5058,
+        "name": "CANNON, 172TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5057,
+        "name": "CHASTAIN, 7TH",
+        "party": "GOP"
+    },
+    {
+        "id": 4891,
+        "name": "JACKSON, 68TH",
+        "party": "Dem"
+    },
+    {
+        "id": 5060,
+        "name": "PERSINGER, 119TH",
+        "party": "GOP"
+    },
+    {
+        "id": 5063,
+        "name": "RICHARDSON, 125TH",
+        "party": "GOP"
+    }
+    ]
