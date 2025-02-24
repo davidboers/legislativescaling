@@ -47,19 +47,32 @@ make_full_table <- function(vote_list, token) {
       votes <- vote_data$votes
     }
     vote_data <- data.frame(Reduce(rbind, votes))
-    if (nrow(data) == 0) {
-      members <- data.frame(Reduce(rbind, vote_data$member))
-      data <- data.frame(row.names = members$id)
-      data$name <- members$name
+
+    members <- data.frame(Reduce(rbind, vote_data$member))
+    tdata <- data.frame(row.names = members$id)
+    tdata$vote <- vote_data$memberVoted
+    if (nrow(tdata) < nrow(data)) {
+      rows_to_add <- nrow(data) - nrow(tdata)
+      new_rows <- data.frame(matrix(NA, nrow = rows_to_add, ncol = ncol(tdata)))
+      colnames(new_rows) <- colnames(tdata)
+      tdata <- rbind(tdata, new_rows)
     }
-    data[paste(vote_id)] <- vote_data$memberVoted
+    names(tdata)[names(tdata) == "vote"] <- paste(vote_id)
+
+    if (nrow(data) == 0) {
+      data <- tdata
+    } else if (nrow(tdata) != 0) {
+      data <- cbind(data, tdata)
+    }
   }
   return(data)
 }
 
 distance_func_ga <- function(r1, r2) {
   r <- t(rbind(r1, r2))
-  delta <- sum(r[, 1] != r[, 2])
+  r1 <- as.character(r[, 1])
+  r2 <- as.character(r[, 2])
+  delta <- sum(r1 < 2 & r2 < 2 & r1 != r2)
   if (delta == 0) {
     return(1)
   } else {
