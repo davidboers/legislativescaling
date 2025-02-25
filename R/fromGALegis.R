@@ -83,11 +83,16 @@ distance_func_ga <- function(r1, r2) {
 make_profiles_ga <- function(file, members) {
   data <- readRDS(file)
   scaled <- makeplot(data, distance_func_ga)
+  members <- members[rownames(scaled), ]
+  whip_table <- make_whip_table(data, members)
   profiles <- data.frame(
     x = scaled[, 1],
-    y = scaled[, 2]
+    y = scaled[, 2],
+    name = members$name,
+    party = members$party,
+    defection_rate = defection_rates(data, whip_table, members)$rate
   )
-  return(cbind(profiles, members[rownames(scaled), ]))
+  return(profiles)
 }
 
 write_profiles_ga <- function(file, members) {
