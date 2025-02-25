@@ -37,6 +37,20 @@ get_vote_list <- function(session_id, chamber, token) {
   return(data)
 }
 
+get_member_list <- function(session_id, chamber, token) {
+  url <- paste(url_base, "members", "list", session_id, sep = "/")
+  url <- paste(url, "?chamber=", chamber, sep = "")
+  response <- httr::GET(url, accept_json(),
+                        add_headers("Authorization" = token))
+  data <- content(response)
+  data <- data.frame(Reduce(rbind, data))
+  rownames(data) <- data$id
+  data$party <- ifelse(data$party == 0, "Democratic", "Republican")
+  data$districtNumber <- as.character(data$districtNumber)
+  data <- subset(data, select = c("party", "districtNumber"))
+  return(data)
+}
+
 make_full_table <- function(vote_list, token) {
   data <- data.frame()
   for (vote_id in vote_list$id) {
@@ -87,12 +101,10 @@ make_profiles_ga <- function(file, members) {
   whip_table <- make_whip_table(data, members)
   profiles <- data.frame(
     x = scaled[, 1],
-    y = scaled[, 2],
-    name = members$name,
-    party = members$party,
-    defection_rate = defection_rates(data, whip_table, members)$rate
+    y = scaled[, 2]
   )
-  return(profiles)
+  drates <- defection_rates(data, whip_table, members)
+  return(cbind(profiles, members, drates))
 }
 
 write_profiles_ga <- function(file, members) {

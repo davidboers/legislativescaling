@@ -18,8 +18,8 @@ make_whip_table <- function(vote_table, members) {
 }
 
 defection_rates <- function(vote_table, whip_table, members) {
-  members <- members[rownames(vote_table), ]
-  members$rate <- sapply(seq_len(nrow(members)), function(i) {
+  data <- data.frame(row.names = rownames(vote_table))
+  data$rate <- sapply(seq_len(nrow(members)), function(i) {
     r <- data.frame(row.names = colnames(vote_table))
     r$vote <- lapply(colnames(vote_table), function(x) vote_table[i, x])
     r$whip <- whip_table[members$party[i]]
@@ -29,5 +29,5 @@ defection_rates <- function(vote_table, whip_table, members) {
     }
     return(c / nrow(r))
   })
-  return(members)
+  return(data)
 }

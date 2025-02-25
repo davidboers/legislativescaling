@@ -1,12 +1,10 @@
 library(devtools)
 load_all("../R")
 
-data <- readRDS("../data/2023_spc_senate.rds")
+data <- readRDS("../data/2025_26_senate.rds")
 
-members <- jsonlite::fromJSON(txt = "../data/member-info.json")
-rownames(members) <- members$id
-members <- subset(members, select = -c(id))
+members <- readRDS("../data/members_2023_spc_senate.rds")
+members
 
 whip_table <- make_whip_table(data, members)
-whip_table
 defection_rates(data, whip_table, members)
