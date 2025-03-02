@@ -63,7 +63,7 @@ make_full_table <- function(vote_list, token) {
     vote_data <- data.frame(Reduce(rbind, votes))
 
     members <- data.frame(Reduce(rbind, vote_data$member))
-    tdata <- data.frame(row.names = members$id)
+    tdata <- members
     tdata$vote <- vote_data$memberVoted
     if (nrow(tdata) < nrow(data)) {
       rows_to_add <- nrow(data) - nrow(tdata)
