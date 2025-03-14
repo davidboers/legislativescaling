@@ -47,7 +47,8 @@ get_member_list <- function(session_id, chamber, token) {
   rownames(data) <- data$id
   data$party <- ifelse(data$party == 0, "Democratic", "Republican")
   data$districtNumber <- as.character(data$districtNumber)
-  data <- subset(data, select = c("party", "districtNumber"))
+  data$fullName <- as.character(data$fullName)
+  data <- subset(data, select = c("party", "districtNumber", "fullName"))
   return(data)
 }
 
@@ -62,9 +63,10 @@ make_full_table <- function(vote_list, token) {
     }
     vote_data <- data.frame(Reduce(rbind, votes))
 
-    members <- data.frame(Reduce(rbind, vote_data$member))
-    tdata <- members
+    tdata <- data.frame(Reduce(rbind, vote_data$member))
     tdata$vote <- vote_data$memberVoted
+    tdata <- tdata[tdata$id != 0, ]
+    rownames(tdata) <- tdata$id
     if (nrow(tdata) < nrow(data)) {
       rows_to_add <- nrow(data) - nrow(tdata)
       new_rows <- data.frame(matrix(NA, nrow = rows_to_add, ncol = ncol(tdata)))
@@ -76,7 +78,7 @@ make_full_table <- function(vote_list, token) {
     if (nrow(data) == 0) {
       data <- tdata
     } else if (nrow(tdata) != 0) {
-      data <- cbind(data, tdata)
+      data <- cbind(data, subset(tdata, select = c(paste(vote_id))))
     }
   }
   return(data)
