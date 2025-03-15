@@ -1,6 +1,7 @@
 get_party_whip <- function(party_i, vote_id, vote_table) {
   votes <- vote_table[vote_table$party == party_i, ]
   tbl <- as.data.frame(table(lapply(votes[vote_id], unlist)))
+  tbl <- tbl[order(tbl$Freq, decreasing = TRUE), ]
   whip <- tbl[1, 1]
   return(whip)
 }
@@ -19,15 +20,12 @@ make_whip_table <- function(vote_table, members) {
 
 defection_rates <- function(vote_table, whip_table, members) {
   data <- data.frame(row.names = rownames(vote_table))
-  data$rate <- sapply(seq_len(nrow(members)), function(i) {
+  data$defectionRate <- sapply(seq_len(nrow(members)), function(i) {
     r <- data.frame(row.names = colnames(vote_table))
     r$vote <- lapply(colnames(vote_table), function(x) vote_table[i, x])
     r$whip <- whip_table[rownames(r), members$party[i]]
-    c <- 0
-    for (n in rownames(r)) {
-      c <- c + (r[n, 1] != r[n, 2])
-    }
-    return(c / nrow(r))
+    r$defected <- unlist(r$vote) != unlist(r$whip)
+    return(nrow(r[r$defected, ]) / nrow(r))
   })
   return(data)
 }
