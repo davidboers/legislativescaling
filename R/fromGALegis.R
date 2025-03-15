@@ -98,6 +98,8 @@ distance_func_ga <- function(r1, r2) {
 
 make_profiles_ga <- function(file, members) {
   data <- readRDS(file)
+  data$id <- NULL
+  data$name <- NULL
   scaled <- makeplot(data, distance_func_ga)
   members <- members[rownames(scaled), ]
   whip_table <- make_whip_table(data, members)
