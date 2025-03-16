@@ -84,31 +84,15 @@ make_full_table <- function(vote_list, token) {
   return(data)
 }
 
-distance_func_ga <- function(r1, r2) {
-  r <- t(rbind(r1, r2))
-  r1 <- as.character(r[, 1])
-  r2 <- as.character(r[, 2])
-  delta <- sum(r1 < 2 & r2 < 2 & r1 != r2)
-  if (delta == 0) {
-    return(1)
-  } else {
-    return(delta)
-  }
+compare_vote_ga <- function(r1, r2) {
+  return(r1 < 2 & r2 < 2 & r1 != r2)
 }
 
 make_profiles_ga <- function(file, members) {
   data <- readRDS(file)
   data$id <- NULL
   data$name <- NULL
-  scaled <- makeplot(data, distance_func_ga)
-  members <- members[rownames(scaled), ]
-  whip_table <- make_whip_table(data, members)
-  profiles <- data.frame(
-    x = scaled[, 1],
-    y = scaled[, 2]
-  )
-  drates <- defection_rates(data, whip_table, members)
-  return(cbind(profiles, members, drates))
+  return(make_profiles(data, members, compare_vote_ga))
 }
 
 write_profiles_ga <- function(file, members) {

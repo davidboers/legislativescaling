@@ -1,3 +1,15 @@
+make_profiles <- function(vote_table, members, compare_func) {
+  scaled <- makeplot(vote_table, compare_func)
+  members <- members[rownames(scaled), ]
+  #whip_table <- make_whip_table(vote_table, members)
+  profiles <- data.frame(
+    x = scaled[, 1],
+    y = scaled[, 2]
+  )
+  #drates <- defection_rates(vote_table, whip_table, members)
+  return(cbind(profiles, members))
+}
+
 get_party_whip <- function(party_i, vote_id, vote_table) {
   votes <- vote_table[vote_table$party == party_i, ]
   tbl <- as.data.frame(table(lapply(votes[vote_id], unlist)))
