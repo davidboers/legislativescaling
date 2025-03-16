@@ -25,10 +25,23 @@ This repository contains the following databases inside `data/`:
 * `2025_26_ga_senate.rda`: Georgia State Senate for 2025-26 session.
 * `2025_26_ga_house.rda`: Georgia State House for 2025-26 session.
 
-_Congress_
+The Congressional databases were scraped with the help of the community-run project at [unitedstates/congress](https://github.com/unitedstates/congress/tree/main). To replicate, run the following in the root directory of this repository:
+
+```bash
+git clone https://github.com/unitedstates/congress.git
+cd congress
+run votes --congress=119 # Or whatever other Congress you want
+```
+
+If that doesn't work, try this instead of the last command:
+
+```bash
+python3 -m venv env # Create virtual environment
+pip install .
+python -m congress.run votes --congress=119
+```
 
 # Todo list
 
-* Party whip
 * Yes/no/abstain count
-* K-means clustering
+* Congressional votes
