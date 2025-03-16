@@ -1,6 +1,7 @@
 make_profiles <- function(vote_table, members, compare_func) {
   scaled <- makeplot(vote_table, compare_func)
   members <- members[rownames(scaled), ]
+  members$n <- length(vote_table)
   #whip_table <- make_whip_table(vote_table, members)
   profiles <- data.frame(
     x = scaled[, 1],
