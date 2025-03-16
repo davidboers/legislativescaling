@@ -7,8 +7,9 @@ make_profiles <- function(vote_table, members, compare_func) {
     x = scaled[, 1],
     y = scaled[, 2]
   )
+  count_table <- option_count(vote_table)
   #drates <- defection_rates(vote_table, whip_table, members)
-  return(cbind(profiles, members))
+  return(cbind(profiles, members, count_table))
 }
 
 get_party_whip <- function(party_i, vote_id, vote_table) {
@@ -41,4 +42,22 @@ defection_rates <- function(vote_table, whip_table, members) {
     return(nrow(r[r$defected, ]) / nrow(r))
   })
   return(data)
+}
+
+option_count <- function(vote_table) {
+  count <- data.frame(row.names = rownames(vote_table))
+  options <- lapply(colnames(vote_table), function(c) unlist(vote_table[c]))
+  options <- Reduce(append, options)
+  options <- unique(options)
+  for (i in rownames(vote_table)) {
+    tbl <- table(unlist(vote_table[i, ]))
+    for (option in options) {
+      x <- tbl[paste(option)]
+      if (is.na(x)) {
+        x <- 0
+      }
+      count[i, paste(option)] <- x
+    }
+  }
+  return(count)
 }
