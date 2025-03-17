@@ -84,15 +84,12 @@ make_full_table <- function(vote_list, token) {
   return(data)
 }
 
-compare_vote_ga <- function(r1, r2) {
-  return(r1 < 2 & r2 < 2 & r1 != r2)
-}
-
 make_profiles_ga <- function(file, members) {
   data <- readRDS(file)
   data$id <- NULL
   data$name <- NULL
-  return(make_profiles(data, members, compare_vote_ga))
+  data[] <- lapply(data, function(v) ifelse(v < 2, v, NA))
+  return(make_profiles(data, members))
 }
 
 write_profiles_ga <- function(file, members) {

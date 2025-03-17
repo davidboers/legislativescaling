@@ -34,14 +34,6 @@ handle_vote <- function(file) {
 
 # Make profiles
 
-compare_vote_cong <- function(r1, r2) {
-  isyn1 <- r1 %in% c("Yea", "Nay", "Aye", "No")
-  isyn2 <- r2 %in% c("Yea", "Nay", "Aye", "No")
-  diff <- r1 != r2
-  b <- isyn1 & isyn2 & diff
-  return(b)
-}
-
 merge_vote_tables <- function(i, x) {
   i <- merge(i, x, by = "row.names", no.dups = FALSE)
   rownames(i) <- i$Row.names
@@ -66,7 +58,7 @@ make_profiles_cong <- function(file) {
   for (col in as.character(colnames(members))) {
     members[, col] <- as.character(members[, col])
   }
-  return(make_profiles(vote_table, members, compare_vote_cong))
+  return(make_profiles(vote_table, members))
 }
 
 write_profiles_cong <- function(file) {
