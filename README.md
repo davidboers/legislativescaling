@@ -24,6 +24,10 @@ This repository contains the following databases inside `data/`:
 * `2023_spc_ga_house.rda`: Georgia State House for 2023 special session.
 * `2025_26_ga_senate.rda`: Georgia State Senate for 2025-26 session.
 * `2025_26_ga_house.rda`: Georgia State House for 2025-26 session.
+* `118_2024_us_h.csv`: 118th Congress - US House from 2024.
+* `118_2024_us_s.csv`: 118th Congress - US Senate from 2024.
+* `119_2025_us_h.csv`: 119th Congress - US House from 2025.
+* `119_2025_us_s.csv`: 119th Congress - US Senate from 2025.
 
 The Congressional databases were scraped with the help of the community-run project at [unitedstates/congress](https://github.com/unitedstates/congress/tree/main). To replicate, run the following in the root directory of this repository:
 
