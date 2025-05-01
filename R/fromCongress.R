@@ -51,6 +51,7 @@ make_profiles_cong <- function(file) {
   vote_tables <- lapply(votes,
                         function(x) subset(x$table, select = c(x$vote_id)))
   vote_table <- Reduce(merge_vote_tables, vote_tables)
+  vote_table[] <- lapply(vote_table, function(v) ifelse(v == "Not Voting", NA, v))
   member_tables <- lapply(votes,
                           function(x) { x$table[x$vote_id] <- NULL
                                       return(x$table) })
