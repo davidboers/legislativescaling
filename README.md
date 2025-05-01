@@ -49,3 +49,4 @@ python -m congress.run votes --congress=119
 
 * Yes/no/abstain count
 * Congressional votes
+* List of votes a member defected on
